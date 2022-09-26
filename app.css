@@ -1,0 +1,69 @@
+body {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position-y: -35px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#header {
+    background-color: #131921;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+#logo {
+    padding: 5px 0px;
+}
+
+#logo img {
+    max-width: 300px;
+    height: auto;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: #f8f8f8;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+}
+
+.dsub-menu {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+
+.sub-menu a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.header:hover .sub-menu {
+    display: block;
+}
