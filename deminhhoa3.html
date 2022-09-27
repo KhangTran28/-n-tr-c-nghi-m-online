@@ -1,0 +1,108 @@
+<!--By codetienich.blogsopot.com-->
+<link rel="stylesheet" href="https://codetienich.github.io/dulieu/ttn.css">
+<script src="https://codetienich.github.io/dulieu/codetienich_blogspot_comT1.js" type="text/javascript"></script>
+<script>
+    var seconds = 20 * 60;
+
+    function secondPassed() {
+        var minutes = Math.round((seconds - 30) / 60);
+        var remainingSeconds = seconds % 60;
+        if (remainingSeconds < 10) {
+            remainingSeconds = "0" + remainingSeconds;
+        }
+        document.getElementById('thoigian').innerHTML = minutes + ":" + remainingSeconds;
+        if (seconds == 0) {
+            clearInterval(countdownTimer);
+            document.getElementById('thoigian').innerHTML = "đã hết!";
+            buttonT1_onclick();
+        } else {
+            seconds--;
+        }
+    }
+    var countdownTimer = setInterval('secondPassed()', 1000);
+</script>
+<div class="onthi5phut">
+    <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 1: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Phát biểu nào sau đây là đúng khi nói về dao động tắt dần?</span></b>
+    <input id="codetienich_blogspot_comT1text1" style="visibility: hidden; width: 1px;" value="A" /><br/>
+    <input id="codetienich_blogspot_comT1Cau1A" name="codetienich_blogspot_comT1.1" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau1A" id="codetienich_blogspot_comT1.1A">Dao động tắt dần có biên độ giảm dần theo thời gian.</label></span><br/>
+    <input id="codetienich_blogspot_comT1Cau1B" name="codetienich_blogspot_comT1.1" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau1B" id="codetienich_blogspot_comT1.1B">Cơ năng của vật dao động tắt dần không đổi theo thời gian.</label></span><br/>
+    <input id="codetienich_blogspot_comT1Cau1C" name="codetienich_blogspot_comT1.1" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau1C" id="codetienich_blogspot_comT1.1C">Lực cản môi trường tác dụng lên vật luôn sinh công dương.</label></span><br/>
+    <input id="codetienich_blogspot_comT1Cau1D" name="codetienich_blogspot_comT1.1" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau1D" id="codetienich_blogspot_comT1.1D">Dao động tắt dần là dao động chỉ chịu tác dụng của ngoại lực.</label></span><br/><br/>    Thời gian làm bài <span style="color: red;"><b><span class="timer" id="thoigian"></span></b>
+    </span><br/>
+
+    <!--By codetienich.blogsopot.com-->
+    <div class="onthi5phut">
+        <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 2: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một con lắc đơn có chiều dài 40 cm dao động điều hòa tại nơi có gia tốc trọng trường g = 10 m/s2 với biên độ góc 0,02 rad. Tốc độ của con lắc khi dây treo thẳng đứng là:</span></b>
+        <input id="codetienich_blogspot_comT1text2" style="visibility: hidden; width: 1px;" value="A" /><br/>
+        <input id="codetienich_blogspot_comT1Cau2A" name="codetienich_blogspot_comT1.2" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau2A" id="codetienich_blogspot_comT1.2A">4 cm/s</label></span><br/>
+        <input id="codetienich_blogspot_comT1Cau2B" name="codetienich_blogspot_comT1.2" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau2B" id="codetienich_blogspot_comT1.2B">4 m/s</label></span><br/>
+        <input id="codetienich_blogspot_comT1Cau2C" name="codetienich_blogspot_comT1.2" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau2C" id="codetienich_blogspot_comT1.2C">10 cm/s</label></span><br/>
+        <input id="codetienich_blogspot_comT1Cau2D" name="codetienich_blogspot_comT1.2" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau2D" id="codetienich_blogspot_comT1.2D">10 m/s</label></span><br/><br/>
+        <!--By codetienich.blogsopot.com-->
+        <div class="onthi5phut">
+            <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 3: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một con lắc đơn có chiều dài 121 cm, dao động điều hòa tại nơi có gia tốc trọng trường g. Lấy π2 = 10. Chu kì dao động của con lắc là:</span></b>
+            <input id="codetienich_blogspot_comT1text3" style="visibility: hidden; width: 1px;" value="D" /><br/>
+            <input id="codetienich_blogspot_comT1Cau3A" name="codetienich_blogspot_comT1.3" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau3A" id="codetienich_blogspot_comT1.3A">0,5 s</label></span><br/>
+            <input id="codetienich_blogspot_comT1Cau3B" name="codetienich_blogspot_comT1.3" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau3B" id="codetienich_blogspot_comT1.3B">2 s</label></span><br/>
+            <input id="codetienich_blogspot_comT1Cau3C" name="codetienich_blogspot_comT1.3" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau3C" id="codetienich_blogspot_comT1.3C">1 s</label></span><br/>
+            <input id="codetienich_blogspot_comT1Cau3D" name="codetienich_blogspot_comT1.3" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau3D" id="codetienich_blogspot_comT1.3D">2,2 s</label></span><br/><br/>
+            <!--By codetienich.blogsopot.com-->
+            <div class="onthi5phut">
+                <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 4: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một con lắc đơn gồm một dây kim loại nhẹ dài 1 m, dao động điều hoà với biên độ góc 0,2 rad trong một từ trường đều mà cảm ứng từ có hướng vuông góc với mặt phẳng dao động của con lắc và có độ lớn 1T. lấy gia tốc trọng trường 10 m/s2. Tính suất điện động cực đại xuất hiện trên thanh treo con lắc:</span></b>
+                <input id="codetienich_blogspot_comT1text4" style="visibility: hidden; width: 1px;" value="C" /><br/>
+                <input id="codetienich_blogspot_comT1Cau4A" name="codetienich_blogspot_comT1.4" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau4A" id="codetienich_blogspot_comT1.4A">0,45 V.</label></span><br/>
+                <input id="codetienich_blogspot_comT1Cau4B" name="codetienich_blogspot_comT1.4" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau4B" id="codetienich_blogspot_comT1.4B">0,63 V</label></span><br/>
+                <input id="codetienich_blogspot_comT1Cau4C" name="codetienich_blogspot_comT1.4" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau4C" id="codetienich_blogspot_comT1.4C">0,32 V</label></span><br/>
+                <input id="codetienich_blogspot_comT1Cau4D" name="codetienich_blogspot_comT1.4" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau4D" id="codetienich_blogspot_comT1.4D">0,22 V</label></span><br/><br/>
+                <!--By codetienich.blogsopot.com-->
+                <div class="onthi5phut">
+                    <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 5: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một con lắc đơn dao động với biên độ góc nhỏ. Chu kì của con lắc không thay đổi khi:</span></b>
+                    <input id="codetienich_blogspot_comT1text5" style="visibility: hidden; width: 1px;" value="D" /><br/>
+                    <input id="codetienich_blogspot_comT1Cau5A" name="codetienich_blogspot_comT1.5" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau5A" id="codetienich_blogspot_comT1.5A">thay đổi chiều dài con lắc</label></span><br/>
+                    <input id="codetienich_blogspot_comT1Cau5B" name="codetienich_blogspot_comT1.5" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau5B" id="codetienich_blogspot_comT1.5B">thay đổi gia tốc trọng trường</label></span><br/>
+                    <input id="codetienich_blogspot_comT1Cau5C" name="codetienich_blogspot_comT1.5" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau5C" id="codetienich_blogspot_comT1.5C">tăng biên độ góc đến 30°</label></span><br/>
+                    <input id="codetienich_blogspot_comT1Cau5D" name="codetienich_blogspot_comT1.5" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau5D" id="codetienich_blogspot_comT1.5D">thay đổi khối lượng của con lắc</label></span><br/><br/>
+                    <!--By codetienich.blogsopot.com-->
+                    <div class="onthi5phut">
+                        <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 6: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một con lắc đơn dao động điều hòa với chu kì T = 4 s, thời gian để con lắc đi từ vị trí cân bằng đến vị trí có li độ cực đại là:</span></b>
+                        <input id="codetienich_blogspot_comT1text6" style="visibility: hidden; width: 1px;" value="C" /><br/>
+                        <input id="codetienich_blogspot_comT1Cau6A" name="codetienich_blogspot_comT1.6" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau6A" id="codetienich_blogspot_comT1.6A">2 s</label></span><br/>
+                        <input id="codetienich_blogspot_comT1Cau6B" name="codetienich_blogspot_comT1.6" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau6B" id="codetienich_blogspot_comT1.6B">1,5 s</label></span><br/>
+                        <input id="codetienich_blogspot_comT1Cau6C" name="codetienich_blogspot_comT1.6" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau6C" id="codetienich_blogspot_comT1.6C">1 s</label></span><br/>
+                        <input id="codetienich_blogspot_comT1Cau6D" name="codetienich_blogspot_comT1.6" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau6D" id="codetienich_blogspot_comT1.6D">0,5 s</label></span><br/><br/>
+                        <!--By codetienich.blogsopot.com-->
+                        <div class="onthi5phut">
+                            <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 7: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Hai con lắc đơn dao động điều hòa tại cùng một vị trí trên Trái Đất. Chiều dài và chu kì dao động của con lắc đơn lần lượt là l1, l2 và T1, T2. Biết T2 = 2T1. Hệ thức đúng là:</span></b>
+                            <input id="codetienich_blogspot_comT1text7" style="visibility: hidden; width: 1px;" value="B" /><br/>
+                            <input id="codetienich_blogspot_comT1Cau7A" name="codetienich_blogspot_comT1.7" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau7A" id="codetienich_blogspot_comT1.7A">l1= 2l2</label></span><br/>
+                            <input id="codetienich_blogspot_comT1Cau7B" name="codetienich_blogspot_comT1.7" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau7B" id="codetienich_blogspot_comT1.7B">l1= 4l2</label></span><br/>
+                            <input id="codetienich_blogspot_comT1Cau7C" name="codetienich_blogspot_comT1.7" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau7C" id="codetienich_blogspot_comT1.7C">l2 = 4l1</label></span><br/>
+                            <input id="codetienich_blogspot_comT1Cau7D" name="codetienich_blogspot_comT1.7" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau7D" id="codetienich_blogspot_comT1.7D">l2 = 2l1</label></span><br/><br/>
+                            <!--By codetienich.blogsopot.com-->
+                            <div class="onthi5phut">
+                                <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 8: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Con lắc đơn dao động nhỏ trong một điện trường đều có phương thẳng đứng hướng xuống, vật nặng có điện tích dương; biên độ A và chu kỳ dao động T. Vào thời điểm vật đi qua vị trí cân bằng thì đột ngột tắt điện trường. Chu kỳ và biên độ của con lắc khi đó thay đổi như thế nào? Bỏ qua mọi lực cản.</span></b>
+                                <input id="codetienich_blogspot_comT1text8" style="visibility: hidden; width: 1px;" value="D" /><br/>
+                                <input id="codetienich_blogspot_comT1Cau8A" name="codetienich_blogspot_comT1.8" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau8A" id="codetienich_blogspot_comT1.8A">Chu kỳ tăng; biên độ giảm</label></span><br/>
+                                <input id="codetienich_blogspot_comT1Cau8B" name="codetienich_blogspot_comT1.8" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau8B" id="codetienich_blogspot_comT1.8B">Chu kỳ giảm biên độ giảm</label></span><br/>
+                                <input id="codetienich_blogspot_comT1Cau8C" name="codetienich_blogspot_comT1.8" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau8C" id="codetienich_blogspot_comT1.8C">Chu kỳ giảm; biên độ tăng</label></span><br/>
+                                <input id="codetienich_blogspot_comT1Cau8D" name="codetienich_blogspot_comT1.8" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau8D" id="codetienich_blogspot_comT1.8D">Chu kỳ tăng; biên độ tăng</label></span><br/><br/>
+                                <!--By codetienich.blogsopot.com-->
+                                <div class="onthi5phut">
+                                    <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 9: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một con lắc đơn mà quả cầu có khối lượng 0,5kg dao động nhỏ với chu kỳ 0,4π (s) tại nơi có gia tốc rơi tự do g = 10 m/s2. Biết li độ góc cực đại là 0,15 rad. Tính cơ năng dao động.</span></b>
+                                    <input id="codetienich_blogspot_comT1text9" style="visibility: hidden; width: 1px;" value="C" /><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9A" name="codetienich_blogspot_comT1.9" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau9A" id="codetienich_blogspot_comT1.9A">30 mJ</label></span><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9B" name="codetienich_blogspot_comT1.9" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau9B" id="codetienich_blogspot_comT1.9B">4 mJ</label></span><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9C" name="codetienich_blogspot_comT1.9" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau9C" id="codetienich_blogspot_comT1.9C">22,5 mJ</label></span><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9D" name="codetienich_blogspot_comT1.9" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau9D" id="codetienich_blogspot_comT1.9D">25 mJ</label></span><br/><br/>
+                                    <!--By codetienich.blogsopot.com-->
+                                    <div class="onthi5phut">
+                                        <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 10: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Truyền cho quả nặng của con lắc đơn đang đứng yên ở vị trí cân bằng một vận tốc v0 = 1/3 m/s theo phương ngang thì nó dao động điều hòa với biên độ góc α0 = 6°. Lấy. Chu kỳ dao động của con lắc bằng:</span></b>
+                                        <input id="codetienich_blogspot_comT1text10" style="visibility: hidden; width: 1px;" value="A" /><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10A" name="codetienich_blogspot_comT1.10" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau10A" id="codetienich_blogspot_comT1.10A">2,00s</label></span><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10B" name="codetienich_blogspot_comT1.10" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau10B" id="codetienich_blogspot_comT1.10B">2,60s</label></span><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10C" name="codetienich_blogspot_comT1.10" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau10C" id="codetienich_blogspot_comT1.10C">30,0ms</label></span><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10D" name="codetienich_blogspot_comT1.10" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau10D" id="codetienich_blogspot_comT1.10D">2,86s</label></span><br/><br/>
+                                        <nav class="thoigiancss">
+                                            <label id="ketquacodetienich_blogspot_comT1"></label><br/>
+                                            <input buttoncodetienich_blogspot_comT1="" class="ttn" id="buttoncodetienich_blogspot_comT1" language="javascript" onclick="buttoncodetienich_blogspot_comT1_onclick();" type="button" value="Nộp bài" /></nav><br
+                                        />

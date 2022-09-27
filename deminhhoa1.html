@@ -1,0 +1,109 @@
+<!--By codetienich.blogsopot.com-->
+<link rel="stylesheet" href="https://codetienich.github.io/dulieu/ttn.css">
+<script src="https://codetienich.github.io/dulieu/codetienich_blogspot_comT1.js" type="text/javascript"></script>
+<script>
+    var seconds = 20 * 60;
+
+    function secondPassed() {
+        var minutes = Math.round((seconds - 30) / 60);
+        var remainingSeconds = seconds % 60;
+        if (remainingSeconds < 10) {
+            remainingSeconds = "0" + remainingSeconds;
+        }
+        document.getElementById('thoigian').innerHTML = minutes + ":" + remainingSeconds;
+        if (seconds == 0) {
+            clearInterval(countdownTimer);
+            document.getElementById('thoigian').innerHTML = "đã hết!";
+            buttonT1_onclick();
+        } else {
+            seconds--;
+        }
+    }
+    var countdownTimer = setInterval('secondPassed()', 1000);
+</script>
+<div class="onthi5phut">
+    <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 1: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một sóng truyền trên mặt biển có bước sóng 2 m. Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha nhau là:</span></b>
+    <input id="codetienich_blogspot_comT1text1" style="visibility: hidden; width: 1px;" value="B" /><br/>
+    <input id="codetienich_blogspot_comT1Cau1A" name="codetienich_blogspot_comT1.1" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau1A" id="codetienich_blogspot_comT1.1A">1,5 m</label></span><br/>
+    <input id="codetienich_blogspot_comT1Cau1B" name="codetienich_blogspot_comT1.1" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau1B" id="codetienich_blogspot_comT1.1B">2 m</label></span><br/>
+    <input id="codetienich_blogspot_comT1Cau1C" name="codetienich_blogspot_comT1.1" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau1C" id="codetienich_blogspot_comT1.1C">1 m</label></span><br/>
+    <input id="codetienich_blogspot_comT1Cau1D" name="codetienich_blogspot_comT1.1" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau1D" id="codetienich_blogspot_comT1.1D">0,5 m</label></span><br/><br/> Thời gian làm bài <span style="color: red;"><b><span class="timer" id="thoigian"></span></b>
+    </span><br/>
+
+    <!--By codetienich.blogsopot.com-->
+    <div class="onthi5phut">
+        <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 2: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một sóng cơ lan truyền trong một môi trường với tốc độ 1 m/s và tần số 10 Hz, biên độ sóng không đổi là 4 cm. Khi phần tử vật chất nhất định của môi trường đi được quãng đường S thì sóng truyền thêm được quãng đường 25 cm. Giá trị S bằng:</span></b>
+        <input id="codetienich_blogspot_comT1text" style="visibility: hidden; width: 1px;" value="" /><br/>
+        <input id="codetienich_blogspot_comT1CauA" name="codetienich_blogspot_comT1." type="radio" value="A" /><label for="codetienich_blogspot_comT1CauA" id="codetienich_blogspot_comT1.A">24 cm</label></span><br/>
+        <input id="codetienich_blogspot_comT1CauB" name="codetienich_blogspot_comT1." type="radio" value="B" /><label for="codetienich_blogspot_comT1CauB" id="codetienich_blogspot_comT1.B">25 cm</label></span><br/>
+        <input id="codetienich_blogspot_comT1CauC" name="codetienich_blogspot_comT1." type="radio" value="C" /><label for="codetienich_blogspot_comT1CauC" id="codetienich_blogspot_comT1.C">56 cm</label></span><br/>
+        <input id="codetienich_blogspot_comT1CauD" name="codetienich_blogspot_comT1." type="radio" value="D" /><label for="codetienich_blogspot_comT1CauD" id="codetienich_blogspot_comT1.D">40 cm</label></span><br/><br/>
+
+        <!--By codetienich.blogsopot.com-->
+        <div class="onthi5phut">
+            <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 3: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Phát biểu nào sau đây là đúng khi nói về sóng cơ học:</span></b>
+            <input id="codetienich_blogspot_comT1text3" style="visibility: hidden; width: 1px;" value="C" /><br/>
+            <input id="codetienich_blogspot_comT1Cau3A" name="codetienich_blogspot_comT1.3" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau3A" id="codetienich_blogspot_comT1.3A">Sóng âm truyền được trong chân không</label></span><br/>
+            <input id="codetienich_blogspot_comT1Cau3B" name="codetienich_blogspot_comT1.3" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau3B" id="codetienich_blogspot_comT1.3B">Sóng dọc là sóng có phương dao động vuông góc với phương truyền sóng</label></span><br/>
+            <input id="codetienich_blogspot_comT1Cau3C" name="codetienich_blogspot_comT1.3" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau3C" id="codetienich_blogspot_comT1.3C">Sóng dọc là sóng có phương dao động trùng với phương truyền sóng</label></span><br/>
+            <input id="codetienich_blogspot_comT1Cau3D" name="codetienich_blogspot_comT1.3" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau3D" id="codetienich_blogspot_comT1.3D">Sóng ngang là sóng có phương dao động trùng với phương truyền sóng</label></span><br/><br/>
+            <!--By codetienich.blogsopot.com-->
+            <div class="onthi5phut">
+                <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 4: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Sóng cơ lan truyền trên mặt nước dọc theo chiều dương của trục Ox với bước sóng λ, tốc độ truyền sóng là v và biên độ a gắn với trục tọa độ như hình vẽ. Tại thời điểm t1 sóng có dạng nét liền và tại thời điểm t2 sóng có dạng nét đứt. Biết AB = BD và vận tốc dao động của điểm C là vC = -0,5πv. Tính góc OCA.</span></b>
+                <input id="codetienich_blogspot_comT1text4" style="visibility: hidden; width: 1px;" value="C" /><br/>
+                <input id="codetienich_blogspot_comT1Cau4A" name="codetienich_blogspot_comT1.4" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau4A" id="codetienich_blogspot_comT1.4A">106,1°</label></span><br/>
+                <input id="codetienich_blogspot_comT1Cau4B" name="codetienich_blogspot_comT1.4" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau4B" id="codetienich_blogspot_comT1.4B">107,3°</label></span><br/>
+                <input id="codetienich_blogspot_comT1Cau4C" name="codetienich_blogspot_comT1.4" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau4C" id="codetienich_blogspot_comT1.4C">108,4°</label></span><br/>
+                <input id="codetienich_blogspot_comT1Cau4D" name="codetienich_blogspot_comT1.4" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau4D" id="codetienich_blogspot_comT1.4D">109,9°</label></span><br/><br/>
+                <!--By codetienich.blogsopot.com-->
+                <div class="onthi5phut">
+                    <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 5: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Sóng cơ có tần số 80 Hz lan truyền trong một môi trường với tốc độ 4 m/s. Dao động của các phần tử vật chất tại hai điểm trên một phương truyền sóng cách nguồn sóng những đoạn lần lượt 31 cm và 33,5 cm, lệch pha nhau góc:</span></b>
+                    <input id="codetienich_blogspot_comT1text5" style="visibility: hidden; width: 1px;" value="B" /><br/>
+                    <input id="codetienich_blogspot_comT1Cau5A" name="codetienich_blogspot_comT1.5" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau5A" id="codetienich_blogspot_comT1.5A">π/2</label></span><br/>
+                    <input id="codetienich_blogspot_comT1Cau5B" name="codetienich_blogspot_comT1.5" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau5B" id="codetienich_blogspot_comT1.5B">π</label></span><br/>
+                    <input id="codetienich_blogspot_comT1Cau5C" name="codetienich_blogspot_comT1.5" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau5C" id="codetienich_blogspot_comT1.5C">2π</label></span><br/>
+                    <input id="codetienich_blogspot_comT1Cau5D" name="codetienich_blogspot_comT1.5" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau5D" id="codetienich_blogspot_comT1.5D">π/3</label></span><br/><br/>
+                    <!--By codetienich.blogsopot.com-->
+                    <div class="onthi5phut">
+                        <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 6: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một sóng cơ học lan truyền dọc theo một đường thẳng với biên độ không đổi, phương trình sóng tại nguồn O là u = Acos2πt/T. Một điểm M cách nguồn O bằng 7/6 bước sóng ở thời điểm t = 1,5T có li độ –3 (cm). Biên độ sóng A là:</span></b>
+                        <input id="codetienich_blogspot_comT1text6" style="visibility: hidden; width: 1px;" value="A" /><br/>
+                        <input id="codetienich_blogspot_comT1Cau6A" name="codetienich_blogspot_comT1.6" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau6A" id="codetienich_blogspot_comT1.6A">6 (cm)</label></span><br/>
+                        <input id="codetienich_blogspot_comT1Cau6B" name="codetienich_blogspot_comT1.6" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau6B" id="codetienich_blogspot_comT1.6B">5 (cm)</label></span><br/>
+                        <input id="codetienich_blogspot_comT1Cau6C" name="codetienich_blogspot_comT1.6" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau6C" id="codetienich_blogspot_comT1.6C">4 (cm)</label></span><br/>
+                        <input id="codetienich_blogspot_comT1Cau6D" name="codetienich_blogspot_comT1.6" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau6D" id="codetienich_blogspot_comT1.6D">3√3 (cm)</label></span><br/><br/>
+                        <!--By codetienich.blogsopot.com-->
+                        <div class="onthi5phut">
+                            <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 7: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Hai điểm M và N nằm trên cùng một phương truyền sóng có phương trình dao động lần lượt là uM = 4cosωt (cm) và uN = 4sinωt (cm). Khoảng cách MN bằng một số</span></b>
+                            <input id="codetienich_blogspot_comT1text7" style="visibility: hidden; width: 1px;" value="D" /><br/>
+                            <input id="codetienich_blogspot_comT1Cau7A" name="codetienich_blogspot_comT1.7" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau7A" id="codetienich_blogspot_comT1.7A">nguyên lần bước sóng</label></span><br/>
+                            <input id="codetienich_blogspot_comT1Cau7B" name="codetienich_blogspot_comT1.7" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau7B" id="codetienich_blogspot_comT1.7B">bán nguyên lần bước sóng</label></span><br/>
+                            <input id="codetienich_blogspot_comT1Cau7C" name="codetienich_blogspot_comT1.7" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau7C" id="codetienich_blogspot_comT1.7C">nguyên lần nửa bước sóng</label></span><br/>
+                            <input id="codetienich_blogspot_comT1Cau7D" name="codetienich_blogspot_comT1.7" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau7D" id="codetienich_blogspot_comT1.7D">bán nguyên lần nửa bước sóng</label></span><br/><br/>
+                            <!--By codetienich.blogsopot.com-->
+                            <div class="onthi5phut">
+                                <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 8: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Khi nói về sóng cơ, phát biểu nào sau đây sai?</span></b>
+                                <input id="codetienich_blogspot_comT1text8" style="visibility: hidden; width: 1px;" value="A" /><br/>
+                                <input id="codetienich_blogspot_comT1Cau8A" name="codetienich_blogspot_comT1.8" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau8A" id="codetienich_blogspot_comT1.8A">Sóng cơ lan truyền không mang năng lượng</label></span><br/>
+                                <input id="codetienich_blogspot_comT1Cau8B" name="codetienich_blogspot_comT1.8" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau8B" id="codetienich_blogspot_comT1.8B">Sóng cơ lan truyền được trong chất rắn</label></span><br/>
+                                <input id="codetienich_blogspot_comT1Cau8C" name="codetienich_blogspot_comT1.8" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau8C" id="codetienich_blogspot_comT1.8C">Sóng cơ lan truyền được trong chất khí</label></span><br/>
+                                <input id="codetienich_blogspot_comT1Cau8D" name="codetienich_blogspot_comT1.8" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau8D" id="codetienich_blogspot_comT1.8D">Sóng cơ lan truyền được trong chất lỏng</label></span><br/><br/>
+                                <!--By codetienich.blogsopot.com-->
+                                <div class="onthi5phut">
+                                    <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 9: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Sóng lan truyền từ nguồn O dọc theo một đường thẳng với biên độ không đổi. Ở thời điểm t = 0, điểm O đi qua vị trí cân bằng theo chiều dương. Một điểm cách nguồn một khoảng bằng 1/4 bước sóng có li độ 5 cm ở thời điểm 1/2 chu kì. Biên độ của sóng là:</span></b>
+                                    <input id="codetienich_blogspot_comT1text9" style="visibility: hidden; width: 1px;" value="D" /><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9A" name="codetienich_blogspot_comT1.9" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau9A" id="codetienich_blogspot_comT1.9A">10cm</label></span><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9B" name="codetienich_blogspot_comT1.9" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau9B" id="codetienich_blogspot_comT1.9B">5√3</label></span><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9C" name="codetienich_blogspot_comT1.9" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau9C" id="codetienich_blogspot_comT1.9C">5√</label></span><br/>
+                                    <input id="codetienich_blogspot_comT1Cau9D" name="codetienich_blogspot_comT1.9" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau9D" id="codetienich_blogspot_comT1.9D">5cm</label></span><br/><br/>
+                                    <!--By codetienich.blogsopot.com-->
+                                    <div class="onthi5phut">
+                                        <b><span style="color:  black; font-family: Times, Times New Roman, serif;">Câu 10: </span></b><b><span style="color: black; font-family: Times, Times New Roman, serif;">Một sóng hình sin lan truyền trên trục Ox. Trên phương truyền sóng, khoảng cách ngắn nhất giữa hai điểm mà các phần tử môi trường tại hai điểm đó dao động ngược pha nhau là 0,4 m. Bước sóng của sóng này là:</span></b>
+                                        <input id="codetienich_blogspot_comT1text10" style="visibility: hidden; width: 1px;" value="C" /><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10A" name="codetienich_blogspot_comT1.10" type="radio" value="A" /><label for="codetienich_blogspot_comT1Cau10A" id="codetienich_blogspot_comT1.10A">0,4 cm</label></span><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10B" name="codetienich_blogspot_comT1.10" type="radio" value="B" /><label for="codetienich_blogspot_comT1Cau10B" id="codetienich_blogspot_comT1.10B">0,8 cm</label></span><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10C" name="codetienich_blogspot_comT1.10" type="radio" value="C" /><label for="codetienich_blogspot_comT1Cau10C" id="codetienich_blogspot_comT1.10C">0,8 m</label></span><br/>
+                                        <input id="codetienich_blogspot_comT1Cau10D" name="codetienich_blogspot_comT1.10" type="radio" value="D" /><label for="codetienich_blogspot_comT1Cau10D" id="codetienich_blogspot_comT1.10D">0,4 m</label></span><br/><br/>
+                                        <nav class="thoigiancss">
+                                            <label id="ketquacodetienich_blogspot_comT1"></label><br/>
+                                            <input buttoncodetienich_blogspot_comT1="" class="ttn" id="buttoncodetienich_blogspot_comT1" language="javascript" onclick="buttoncodetienich_blogspot_comT1_onclick();" type="button" value="Nộp bài" /></nav><br
+                                        />
